@@ -1,4 +1,3 @@
-TESTTESTTESTTESTTESTTESTTESTTEST
 # official Bitsong IBC Channels
 
 | source chain-id  | source channel  | source denom | destination chain-id  | destinaion channel | IBC token-address on destinaion chain |
