@@ -367,12 +367,12 @@ journaltctl -u bitsongd -f
 ```
 
 When your nodes are fully synced you can start the hermes daemon:
-```bash
+```shell
 sudo systemctl start hermes && journalctl -u hermes -f
 ```
 
 Hermes does a chain-health-check at startup. Watch the output to check if all connected nodes are up and synced
-```bash
+```shell
 INFO ThreadId(01) Hermes has started
 INFO ThreadId(01) [osmosis-1] chain is healthy
 INFO ThreadId(01) [cosmoshub-4] chain is healthy
@@ -387,23 +387,23 @@ It will try & clear any unreceived packets after startup has completed.
 ### Snippets
 
 Query Hermes for unreceived packets & acknowledgements (check if channels are "clear")
-```bash
+```shell
 hermes query packet unreceived-packets bitsong-2b transfer channel-0
 hermes query packet unreceived-acks bitsong-2b transfer channel-0
 ```
-```bash
+```shell
 hermes query packet unreceived-packets osmosis-1 transfer channel-73
 hermes query packet unreceived-acks bitsong-1 transfer channel-73
 ```
 
 Query Hermes for packet commitments:
-```bash
+```shell
 hermes query packet commitments osmosis-1 transfer channel-73
 hermes query packet commitments bitsong-2b transfer channel-0
 ```
 
 Clear unreceived packets manually. *Experimental: you'll need to stop your hermes daemon for it not to get confused with account sequences.*
-```bash
+```shell
 hermes tx raw packet-recv osmosis-1 bitsong-2b transfer channel-0
 hermes tx raw packet-recv bitsong-2b osmosis-1 transfer channel-73
 ```
