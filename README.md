@@ -138,7 +138,7 @@ Environment=BITSONGD_SNAPSHOT_INTERVAL=1000
 Environment=BITSONGD_P2P_MAX_NUM_INBOUND_PEERS=100
 Environment=BITSONGD_P2P_MAX_NUM_OUTBOUND_PEERS=100
 LimitNOFILE=5000000
-ExecStart=/usr/local/bin/bitsongd start --pruning custom --pruning-keep-recent 400000 --pruning-keep-every=0 --pruning-interval 100 --home --x-crisis-skip-assert-invariants
+ExecStart=/usr/local/bin/bitsongd start --pruning custom --pruning-keep-recent 400000 --pruning-keep-every 0 --pruning-interval 100 --home --x-crisis-skip-assert-invariants
 Environment=BITSONGD_LOG_LEVEL=info
 
 [Install]
