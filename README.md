@@ -33,5 +33,5 @@ junod start
 ---
 ## rocksdb
 
-- install instructions for Ubuntu: checkout [this gist](https://gist.github.com/clemensgg/907de16baa203946633ddca462cbf597)
-- cosmos go-rocksdb repo: https://github.com/cosmos/gorocksdb
+- Install instructions for Ubuntu: checkout [this gist](https://gist.github.com/clemensgg/907de16baa203946633ddca462cbf597)
+- Cosmos go-rocksdb repo: https://github.com/cosmos/gorocksdb
