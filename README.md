@@ -28,7 +28,7 @@ Pre-requisites:
 - build-essential, git
 - openssl for rust. The OpenSSL library with its headers is required. Refer to https://docs.rs/openssl/0.10.38/openssl/
 
-```
+```bash
 sudo apt install librust-openssl-dev build-essential git
 ```
 
@@ -41,7 +41,7 @@ Because the relaying process needs to be able to query the chain back in height 
 
 *edit app.toml - note: at an average block time of 6.5sec pruning-keep-recent=400000 will result in a retained chainstate of ~30d. This will suffice for most cosmos-sdk chains with an unstaking period < 30d*
 
-```
+```bash
 pruning=custom 
 pruning-keep-recent=400000 
 pruning-keep-every=0 
@@ -53,7 +53,7 @@ hermes needs to be able to query the API- and gRPC-endpoints of your nodes, you 
 *edit app.toml & config.toml, choose a unique port-config for each chain, write down your port-config*
 
 *app.toml*
-```
+```toml
 [api]
 
 # Enable defines if the API server should be enabled.
@@ -65,7 +65,7 @@ swagger = false
 # Address defines the API server to listen on.
 address = "tcp://0.0.0.0:7011"
 ```
-```
+```toml
 [grpc]
 
 # Enable defines if the gRPC server should be enabled.
@@ -76,7 +76,7 @@ address = "0.0.0.0:7012"
 ```
 
 *config.toml - choose unique pprof_laddr port*
-```
+```toml
 # pprof listen address (https://golang.org/pkg/net/http/pprof)
 pprof_laddr = "localhost:7019"
 ```
