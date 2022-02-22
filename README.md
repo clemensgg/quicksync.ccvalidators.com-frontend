@@ -12,7 +12,7 @@
 ---
 ## download instructions
 
-```bash
+```sh
 sudo apt install aria2 lz4
 $URL=<paste URL>
 cd ~/.juno
@@ -23,7 +23,7 @@ lz4 -d `basename $URL` | tar xf -
 junod start
 ```
 *or (single-stream, no double disk-space needed, but no possibility to check hash)*
-```bash
+```sh
 cd ~/.juno
 rm -r data
 wget -O - $URL | lz4 -d | tar -xvf -
