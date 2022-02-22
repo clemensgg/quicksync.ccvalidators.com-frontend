@@ -1,4 +1,4 @@
-# JUNO ROCKSDB
+# JUNO - ROCKSDB
 
 | DOWNLOAD  | date | chain id | db backend | pruning | size | file name | hash
 | --------- | ---- | -------- | ---------- | ------- | ---- | --------- | --- |
