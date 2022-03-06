@@ -3,11 +3,11 @@
 | DOWNLOAD  | date | chain id | db backend | pruning | size | file name | hash |
 | --------- | ---- | -------- | ---------- | ------- | ---- | --------- | ---- |
 | [DOWNLOAD](https://quicksync.ccvalidators.com/SNAPSHOTS/chihuahua-1_20220304_default.tar.lz4) | 2022/03/04 | chihuahua-1 | rocksdb | default | 277G | chihuahua-1_20220304_default.tar.lz4 | b80d0b889f47c3008235378102c208f1 |
-| [DOWNLOAD](https://quicksync.ccvalidators.com/SNAPSHOTS/chihuahua-1_20220304_pruned.tar.lz4) | 2022/03/04 | chihuahua-1 | rocksdb | pruned | 100G | chihuahua-1_20220304_pruned.tar.lz4 | 415754824ba7ab7a32ae62648f96873d |
 | [DOWNLOAD](https://quicksync.ccvalidators.com/SNAPSHOTS/chihuahua-1_20220305_archive.tar.lz4) | 2022/03/05 | chihuahua-1 | rocksdb | archive | 351G | chihuahua-1_20220305_archive.tar.lz4 | 8b4ee053ddd1c4fb8b2b420d597038ef |
 | [DOWNLOAD](https://quicksync.ccvalidators.com/SNAPSHOTS/chihuahua-1_20220305_default.tar.lz4) | 2022/03/05 | chihuahua-1 | rocksdb | default | 283G | chihuahua-1_20220305_default.tar.lz4 | aca8b19930f28810de0b66fc1f80d3ce |
 | [DOWNLOAD](https://quicksync.ccvalidators.com/SNAPSHOTS/chihuahua-1_20220305_pruned.tar.lz4) | 2022/03/05 | chihuahua-1 | rocksdb | pruned | 102G | chihuahua-1_20220305_pruned.tar.lz4 | 42b5b161fc2d1984f0ee840839ac557d |
 | [DOWNLOAD](https://quicksync.ccvalidators.com/SNAPSHOTS/chihuahua-1_20220306_archive.tar.lz4) | 2022/03/06 | chihuahua-1 | rocksdb | archive | 357G | chihuahua-1_20220306_archive.tar.lz4 | 37acc970f31068b816d7429381f0fe6b |
+| [DOWNLOAD](https://quicksync.ccvalidators.com/SNAPSHOTS/chihuahua-1_20220306_pruned.tar.lz4) | 2022/03/06 | chihuahua-1 | rocksdb | pruned | 103G | chihuahua-1_20220306_pruned.tar.lz4 | dceab6c3e1fc5c7aa074630540da36d8 |
  
 ---
 ## download instructions
