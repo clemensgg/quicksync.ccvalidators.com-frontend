@@ -2,7 +2,7 @@
  
 | DOWNLOAD  | date | chain id | db backend | pruning | size | file name | hash |
 | --------- | ---- | -------- | ---------- | ------- | ---- | --------- | ---- |
-| [DOWNLOAD](https://quicksync.ccvalidators.com/SNAPSHOTS/comdex-1_20220307_100-1000-11.tar.lz4) | 2022/03/07 | comdex-1 | rocksdb | 100-1000-11 | 51G | comdex-1_20220307_100-1000-11.tar.lz4 | 8c182b953ccf555d311b563fe5b2ed35 |
+| [DOWNLOAD](https://quicksync.ccvalidators.com/SNAPSHOTS/comdex-1_20220307_100-1000-11.tar.lz4) | 2022/03/07 | comdex-1 | goleveldb | pruned | 51G | comdex-1_20220307_100-1000-11.tar.lz4 | 8c182b953ccf555d311b563fe5b2ed35 |
  
 ---
 ## download instructions
@@ -22,6 +22,7 @@ comdex start
 cd $HOME/.comdex
 rm -r data
 wget -O - $URL | lz4 -d | tar -xvf -
+mv data-backup-2022-3-7 data
 comdex start
 ```
  
